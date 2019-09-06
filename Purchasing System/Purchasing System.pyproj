@@ -95,6 +95,7 @@
     <Folder Include="app\static\app\content\" />
     <Folder Include="app\static\app\fonts\" />
     <Folder Include="app\static\app\scripts\" />
+    <Folder Include="app\static\app\scripts\datatables\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DeliveryOrder\" />
@@ -126,6 +127,9 @@
     <Folder Include="RequestForQuotation\templates\RequestForQuotation\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\scripts\datatables\dataTables.bootstrap4.min.css" />
+    <Content Include="app\static\app\scripts\datatables\dataTables.bootstrap4.min.js" />
+    <Content Include="app\static\app\scripts\datatables\jquery.dataTables.min.js" />
     <Content Include="app\templates\app\menu.html" />
     <Content Include="DeliveryOrder\templates\DeliveryOrder\deliveryorderconfirmation.html" />
     <Content Include="DeliveryOrder\templates\DeliveryOrder\deliveryorderdetails.html" />
